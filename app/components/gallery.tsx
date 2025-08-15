@@ -24,6 +24,22 @@ export default function Gallery() {
       alt: "Art piece 3",
       title: "Digital Nostalgia",
     },
+
+    // {
+    //   src: "/7.jpg?height=600&width=400",
+    //   alt: "Art piece 1",
+    //   title: "Trucking Company Marketplace",
+    // },
+    // {
+    //   src: "/8.jpg?height=600&width=400",
+    //   alt: "Art piece 2",
+    //   title: "Trusted Freight Forwarding Network",
+    // },
+    // {
+    //   src: "/5.jpg?height=600&width=400",
+    //   alt: "Art piece 3",
+    //   title: "Digital Nostalgia",
+    // },
   ];
 
   return (

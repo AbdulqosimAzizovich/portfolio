@@ -42,7 +42,7 @@ export default function Contact() {
   const chatId = "1147407714";
 
   function onSubmit(values: z.infer<typeof formSchema>) {
-    const sendMessage = `Message from ${values.name}. ${values.message}. Contact: ${values.email}`;
+    const sendMessage = `Message from ${values.name}. ${values.message}. Contact: ${values.email}. From (www.havksawy.uz)`;
     fetch(
       `https://api.telegram.org/bot${bot_token}/sendMessage?chat_id=${chatId}&text=${sendMessage}`
     )
@@ -93,7 +93,11 @@ export default function Contact() {
                   <FormItem>
                     <FormLabel>Name</FormLabel>
                     <FormControl>
-                      <Input placeholder="Your name" {...field} />
+                      <Input
+                        className="text-[#000]"
+                        placeholder="Your name"
+                        {...field}
+                      />
                     </FormControl>
                     <FormMessage />
                   </FormItem>
@@ -106,7 +110,11 @@ export default function Contact() {
                   <FormItem>
                     <FormLabel>Email</FormLabel>
                     <FormControl>
-                      <Input placeholder="your@email.com" {...field} />
+                      <Input
+                        className="text-[#000]"
+                        placeholder="your@email.com"
+                        {...field}
+                      />
                     </FormControl>
                     <FormMessage />
                   </FormItem>

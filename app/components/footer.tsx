@@ -20,7 +20,7 @@ export default function Footer() {
               Git Hub
             </a>
             <a
-              href="https://www.linkedin.com/in/sd6639/"
+              href="https://www.linkedin.com/in/havksawy/"
               className="text-gray-400 hover:text-white"
             >
               LinkedIn

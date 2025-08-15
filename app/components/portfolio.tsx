@@ -28,7 +28,7 @@ export default function Portfolio() {
     {
       id: 3,
       title: "Sima Freights LLC",
-      category: "Logistic service",
+      category: "logistic service",
       image: "/3.jpg?height=400&width=600",
       year: "2025",
     },
@@ -46,13 +46,13 @@ export default function Portfolio() {
       image: "/5.jpg?height=400&width=600",
       year: "2024",
     },
-    // {
-    //   id: 6,
-    //   title: "Bronze Echo",
-    //   category: "sculptures",
-    //   image: "/1.jpg?height=400&width=600",
-    //   year: "2023",
-    // },
+    {
+      id: 6,
+      title: "The Recruiting",
+      category: "logistic service",
+      image: "/9.png?height=400&width=600",
+      year: "2025",
+    },
   ];
 
   const filteredWorks = works.filter((work) =>
